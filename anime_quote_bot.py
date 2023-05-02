@@ -23,7 +23,7 @@ reddit = praw.Reddit(
 
 key = "!animequote"
 
-subreddit = reddit.subreddit("IndianTeenagers")
+subreddit = reddit.subreddit("testquo")
 
 respond = set()
 
@@ -38,7 +38,7 @@ for comment in subreddit.stream.comments(skip_existing=True):
             
         start = "**Anime Quote bot here!**\n\n"
         main = "\n\t" + anime  + "\n\t" + f"\"{quote}\"" +  "\n\t" + f"-{character}"
-        end = "\n ######[Creator](https://www.reddit.com/user/rocknpaperss)"
+        end = "\n [Creator](https://www.reddit.com/user/rocknpaperss)"
         
         comment.reply(start + main + end)
         time.sleep(10)
