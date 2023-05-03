@@ -1,7 +1,6 @@
 
 
-anime_names = [    
-    'spice and wolf', 'mobile suit gundam 00', 'ghost in the shell', 'naruto', 'death note',     
+anime_names = ['spice and wolf', 'mobile suit gundam 00', 'ghost in the shell', 'naruto', 'death note',     
     'bleach', 'berserk', 'yu yu hakusho', 'one piece', 'soul eater', 'hellsing ultimate',     
     'liar game', 'avatar: the last airbender', 'mobile suit gundam seed', 'k-on', 'hellsing',     
     'black butler', 'gintama', 'fullmetal alchemist', 'shaman king', 'rurouni kenshin',     
@@ -13,5 +12,6 @@ anime_names = [
     'mahou shoujo madoka magica', 'clannad', 'fate/stay night', 'fate/zero', 'attack on titan',     
     'haikyuu!!', 'steins;gate', 'deadman wonderland', 'angel beats!', 'the melancholy of haruhi suzumiya',     
     'claymore', 'akuma to love song', 'sankarea', 'psycho-pass', 'ergo proxy', 'hyouka', 'naruto shippuden']
+
 
 
