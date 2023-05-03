@@ -2,16 +2,24 @@
 
 anime_names = ['spice and wolf', 'mobile suit gundam 00', 'ghost in the shell', 'naruto', 'death note',     
     'bleach', 'berserk', 'yu yu hakusho', 'one piece', 'soul eater', 'hellsing ultimate',     
-    'liar game', 'avatar: the last airbender', 'mobile suit gundam seed', 'k-on', 'hellsing',     
-    'black butler', 'gintama', 'fullmetal alchemist', 'shaman king', 'rurouni kenshin',     
-    'log horizon', 'cowboy bebop', 'akame ga kill', 'flcl', 'fullmetal alchemist brotherhood',     
-    'fruits basket', 'pokemon', 'serial experiments lain', 'ouran high school host club',     
+    'liar game','mobile suit gundam seed', 'k-on', 'hellsing',  'black butler', 'gintama', 
+    'fullmetal alchemist', 'shaman king', 'rurouni kenshin',     
+    'log horizon', 'cowboy bebop', 'akame ga kill', 'flcl', 
+    'fullmetal alchemist brotherhood',     
+    'fruits basket', 'pokémon', 'serial experiments lain', 'ouran high school host club',     
     'inuyasha', 'fairy tail', 'durarara', 'detective conan', 'sailor moon', 'samurai champloo',     
-    'tengen toppa gurren lagann', 'your lie in april', 'kuroko no basket', 'kaichou wa maid-sama!',     
+    'tengen toppa gurren lagann', 'kuroko no basket', 'kaichou wa maid-sama!',     
     'dragon ball', 'hunter x hunter', 'clannad after story', 'bakemonogatari', "howl's moving castle",     
     'mahou shoujo madoka magica', 'clannad', 'fate/stay night', 'fate/zero', 'attack on titan',     
-    'haikyuu!!', 'steins;gate', 'deadman wonderland', 'angel beats!', 'the melancholy of haruhi suzumiya',     
-    'claymore', 'akuma to love song', 'sankarea', 'psycho-pass', 'ergo proxy', 'hyouka', 'naruto shippuden']
-
-
+    'haikyuu', 'steins;gate', 'deadman wonderland', 'angel beats', 'the melancholy of haruhi suzumiya',     
+    'claymore', 'akuma to love song', 'sankarea', 'psycho-pass', 
+    'ergo proxy', 'hyouka', 'naruto shippuden',"demon slayer", 
+    'code geass', 'tokyo ghoul', "tokyo revengers","dr stone","my hero academia",
+    "jojo's bizarre adventure",'evangelion','neon genesis evangelion',
+    "sword art online",'no game no life',
+    'toradora','re:zero','noragami','assassination classroom','death parade','soul eater',
+    'highschool of the dead','monster','great teacher onizuka','parasyte','danganronpa',
+    "black Clover","Black Lagoon","Detective Conan",
+    "Devil May Cry",'Final Fantasy',"Hellsing","Yu-Gi-Oh!","Legend of Zelda",
+    "Nisemonogatari","Kuroko's Basketball","Kakegurui","Kill la Kill","Initial D","Adventures of Sinbad",'doraemon']
 
