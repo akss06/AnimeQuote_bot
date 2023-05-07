@@ -23,8 +23,8 @@ reddit = praw.Reddit(
     username= USERNAME,
 )
 
-subreddit = reddit.subreddit("testquo")
-
+subreddit = reddit.subreddit("all")
+how_to = "https://www.reddit.com/user/rocknpaperss/comments/13agsyz/how_to_use_animequote_bot/"
 respond = set()
 
 for comment in subreddit.stream.comments(skip_existing=True):
@@ -36,12 +36,13 @@ for comment in subreddit.stream.comments(skip_existing=True):
         anime = quotes.json()['anime']
                        
         start = "**Anime Quote bot here!**\n\n"
-        main = main = "\n\t" + anime  + "\n\t" + f"\"{quote}\"" +  "\n\t" + f"-{character}"
+        main = "\n\t" + anime  + "\n\t" + f"\"{quote}\"" +  "\n\t" + f"-{character}"
         end = "\n [Creator](https://www.reddit.com/user/rocknpaperss)"
-                    
-        comment.reply(start + main + end)
+        end2 = f"\n| [how to use]({how_to})"            
+        
+        comment.reply(start + main + end + end2)
         respond.add(comment.id)
-        time.sleep(15)
+        time.sleep(10)
          
     
     found = False
@@ -73,20 +74,22 @@ for comment in subreddit.stream.comments(skip_existing=True):
                         except KeyError:
                             
                             start = "**Anime Quote bot here!**\n\n"
-                            main = "\n\tSorry, no quotes found :("
-                            end = "\n [Creator](https://www.reddit.com/user/rocknpaperss)"     
-                            comment.reply(start + main + end)
+                            main = "\n\tSorry, no quotes found . Try Again"
+                            end = "\nCreator](https://www.reddit.com/user/rocknpaperss)"
+                            end2 = f"\n| [how to use]({how_to})"     
+                            comment.reply(start + main + end + end2)
                             respond.add(comment.id)
-                            time.sleep(15)
+                            time.sleep(10)
                             continue
                     
                     start = "**Anime Quote bot here!**\n\n"
                     main = "\n\t" + anime  + "\n\t" + f"\"{quote}\"" +  "\n\t" + f"-{character}"
-                    end = "\n [Creator](https://www.reddit.com/user/rocknpaperss)"
+                    end = "\n[Creator](https://www.reddit.com/user/rocknpaperss)"
+                    end2 = f"\n| [how to use]({how_to})"
                     
-                    comment.reply(start + main + end)
+                    comment.reply(start + main + end + end2)
                     respond.add(comment.id)
-                    time.sleep(15)
+                    time.sleep(10)
                     break
     
     
@@ -95,11 +98,12 @@ for comment in subreddit.stream.comments(skip_existing=True):
         
         start = "**Anime Quote bot here!**\n\n"
         main = "\n\tSorry, the requested anime is not available :("
-        end = "\n [Creator](https://www.reddit.com/user/rocknpaperss)"
+        end = "\n[Creator](https://www.reddit.com/user/rocknpaperss)"
+        end2 = f"\n| [how to use]({how_to})"
                     
-        comment.reply(start + main + end)
+        comment.reply(start + main + end + end2)
         respond.add(comment.id)
-        time.sleep(15)
+        time.sleep(10)
 
                 
             
